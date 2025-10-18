@@ -6,7 +6,7 @@ USER root
 # n8n'in kurulduğu dizine git
 WORKDIR /home/node/.n8n
 
-# DÜZELTİLMİŞ PAKET ADI (sondaki .js kaldırıldı)
+# DOĞRU PAKET ADI (sondaki .js YOK)
 RUN npm install --save --unsafe-perm n8n-nodes-whatsapp-web
 
 # İzinleri tekrar 'node' kullanıcısına ver
